@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="imagenes/icono.ico">
+    <title>Contacto</title>
+    <style>
+      h2 {
+  color: #5EB2F2;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align:  center;
+}
+      .app{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .app a{
+        font-size: 50px;
+        padding: 10px;
+        transition: all ease 500ms;
+      }
+
+      .Facebook{
+        color: #5EB2F2;
+      }
+
+      .What{
+        color: #5EB2F2;
+      }
+
+      .Instagram{
+        color: #5EB2F2;
+      }
+
+      .X{
+        color: #5EB2F2;
+      }
+
+      .app a:hover{
+        color: #FFB757;
+        transform: scale(1.2);
+      }
+      footer{
+        background-color: #5EB2F2;
+      }
+    </style>
+</head>
+<body>
+  <nav>
+    <a href="#" class="enlace">
+        <img src="imagenes/logo.PNG" alt="" class="logo">
+    </a>
+    <ul>
+      <li><a href="inicio.html">Bienvenido</a></li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="index2.html">Contacto</a></li>
+      <li><a href="index3.html">Acerca de</a></li>
+      <li><a href="index4.html">Productos</a></li>
+      <li><a href="index5.html">Blog</a></li>
+    </ul>
+  </nav>
+  <div class="Contacto">
+    <h2>Contacto</h2>
+      <p>Para agendar una cita o solicitar más información, por favor contáctenos.</p>
+      <ul>
+        <li>Teléfono: (505) 222-2222</li>
+        <li>Correo electrónico: info@sonrisasbrillantes.com</li>
+        <li>Dirección: Calle Principal 123, Managua, Nicaragua</li>
+      </ul>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </div>
+      <br>
+      <h2>Visitanos En Nuestras Redes </h2>
+
+      <div class="app">
+        <a href="https://www.facebook.com" class="Facebook" target="_blank">
+          <i class="fa-brands fa-square-facebook"></i>
+        </a>
+
+        <a href="https://web.whatsapp.com/" class="What" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+        <a href="https://www.instagram.com/" class="Instagram" target="_blank">
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+
+        <a href="https://twitter.com/x" class="X" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+   
+</body>
+</html>

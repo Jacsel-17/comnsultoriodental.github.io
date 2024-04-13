@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+.container {
+  max-width: 90%; 
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #5EB2F2;
+}
+h1 {
+  text-align: center;
+  color: #5EB2F2;
+}
+p {
+  text-align: center;
+  color: #666;
+}
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: none;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .image-container {
+    margin-top: 10px;
+  }
+}
+
+/* Estilos para la barra de navegación */
+nav {
+  background: transparent;
+  height: 80px;
+  width: 100%;
+}
+
+.enlace {
+  position: absolute;
+  padding: 20px 20px;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #5EB2F2;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 7px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none; /* Quitar subrayado */
+}
+
+li a.active, li a:hover {
+  background: #0289F0;
+  transition: .5s;
+}
+
+

@@ -1,0 +1,560 @@
+/*BARRA DE NAVEGACION*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+  background: transparent;
+    height: 80px;
+    width: 100%;
+ }
+
+ .enlace{
+    position: absolute;
+    padding: 20px 50px;
+ }
+
+ .logo{
+    height: 40px;
+ }
+
+ nav ul{
+    float: right;
+    margin-right: 20px;
+ }
+
+ nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+ }
+
+ nav ul li a{
+    color: #5EB2F2;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+ }
+
+ li a.active, li a:hover{
+    background: #0289F0;
+    transition: .5s;
+ }
+ /*FIN*/
+
+/*PESTAÑA DE SERVICIOS*/
+.servicios {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #5EB2F2;
+}
+
+.servicios h2 {
+  color: #5EB2F2;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.servicios ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.servicios li {
+  color: #666;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.equipo {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #5EB2F2;
+}
+
+.equipo h2 {
+  color: #5EB2F2;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.equipo p {
+  color: #666;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.equipo ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.equipo li {
+  color: #666;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.testimonios {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #5EB2F2;
+}
+
+.testimonios h2 {
+  color: #5EB2F2;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.testimonios p {
+  color: #666;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.testimonios ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.testimonios li {
+  color: #666;
+  font-size: 1em;
+  margin-bottom: 20px;
+  quotes: "“" "”";
+}
+
+.testimonios li:before {
+  content: open-quote;
+}
+
+.testimonios li:after {
+  content: close-quote;
+}
+/*FIN*/
+
+/*PESTAÑA DE BLOGGGG*/
+.blog {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.blog h2 {
+  text-align: center;
+  color: #5EB2F2;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.blog ul {
+  list-style: none;
+  padding: 0;
+}
+
+.blog ul li {
+  margin-bottom: 50px;
+}
+
+.blog ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.blog ul li img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #5EB2F2;
+}
+
+.blog ul li h3 {
+  color: #5EB2F2;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.blog ul li p {
+  color: #666;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.blog a:hover{
+  background-color: #FFB757;
+}
+/*FINNNNNNN*/
+
+body{
+  font-family: sans-serif;
+  color: #666;
+}
+
+/* PESTAÑA DE CONTACTO*/
+.Contacto {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #5EB2F2;
+}
+
+.Contacto h2 {
+  text-align: center;
+  color: #5EB2F2;
+  font-size: 2.5em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+.Contacto p {
+  text-align: center;
+  color: #666;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.Contacto ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.Contacto li {
+  margin-bottom: 10px;
+}
+
+.Contacto label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.Contacto input[type="text"],
+.Contacto input[type="email"],
+.Contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Contacto textarea {
+  resize: vertical;
+}
+
+.Contacto button[type="submit"] {
+  background-color: #FFB757;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.Contacto button[type="submit"]:hover {
+  background-color: #0289F0;
+}
+
+.Contacto img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #5EB2F2;
+}
+
+/* PESTAÑA ACERCAAAAA */
+.acerca {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #5EB2F2;
+}
+
+.acerca h2 {
+  color: #5EB2F2;
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.acerca h4 {
+  text-align: center;
+  color: #5EB2F2;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.acerca p {
+  color: #666;
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.acerca ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.acerca ul li {
+  color: #666;
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.acerca img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #5EB2F2;
+}
+/* FINNNNNNNNNN */
+
+/* PRODUCTOS */
+.Productos {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Productos h2 {
+  text-align: center;
+  color: #5EB2F2;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.Productos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Productos ul li {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.Productos ul li img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #5EB2F2;
+}
+
+.Productos ul li h3 {
+  color: #5EB2F2;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.Productos ul li p {
+  color: #666;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.Productos ul li a {
+  display: inline-block;
+  color: #fff;
+  background-color: #FFB757;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.Productos ul li a:hover {
+  background-color: #0289F0;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* BARRA DE NAVEGACION */
+  nav {
+    height: auto;
+    padding: 10px 0;
+  }
+  
+  .enlace {
+    position: static;
+    padding: 10px;
+    display: block;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 30px;
+  }
+  
+  nav ul {
+    float: none;
+    margin-right: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: block;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 5px 10px;
+  }
+  
+  /* PESTAÑA DE SERVICIOS */
+  .servicios {
+    padding: 15px;
+  }
+  
+  .servicios h2 {
+    font-size: 1.2em;
+  }
+  
+  .servicios li {
+    font-size: 0.9em;
+  }
+  
+  /* PESTAÑA DE CONTACTO */
+  .Contacto {
+    padding: 15px;
+  }
+  
+  .Contacto h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .Contacto p {
+    font-size: 1em;
+  }
+  
+  .Contacto input[type="text"],
+  .Contacto input[type="email"],
+  .Contacto textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .Contacto button[type="submit"] {
+    padding: 8px 15px;
+    font-size: 1em;
+  }
+  
+  /* PESTAÑA DE BLOG */
+  .blog h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .blog ul li {
+    margin-bottom: 30px;
+  }
+  
+  .blog ul li h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .blog ul li p {
+    font-size: 0.9em;
+  }
+  
+  .blog ul li img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* PESTAÑA DE ACERCA */
+  .acerca h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .acerca h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .acerca p {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+  }
+  
+  .acerca ul li {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  .acerca img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* PESTAÑA DE PRODUCTOS */
+  .Productos h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .Productos ul li {
+    margin-bottom: 30px;
+  }
+  
+  .Productos ul li h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .Productos ul li p {
+    font-size: 0.9em;
+  }
+}
+
+
+
